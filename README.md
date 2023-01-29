@@ -25,10 +25,10 @@ Main file name: Session.py
 * imageai==2.1.6
 
 ## Description
-Aplication allows user to list and group images in selected directory using chosen metric.
-User can create annotations with selected image and export it when ready.
-Application uses OpenImageAI
-Supported externsions: .bmp .jpg .png
+Aplication allows user to list and group images in selected directory using chosen metric.<br />
+User can create annotations with selected image and export it when ready.<br />
+Application uses OpenImageAI <br />
+Supported externsions: .bmp .jpg .png <br />
 
 ### Annotations
 To proplerly use annotations:
@@ -44,13 +44,14 @@ To proplerly use annotations:
 
 
 ## Authors and acknowledgment
-https://github.com/Quecheri
-https://github.com/jakub22222
-https://gitlab.aei.polsl.pl/mategor195
+https://github.com/Quecheri <br />
+https://github.com/jakub22222 <br />
+https://gitlab.aei.polsl.pl/mategor195 <br />
+
 
 
 
 ## Project status
-Application is finished. It's only a demo and lacks some key functions.
-Application was made using various libraries simply to try them out. 
-It's no optimal way of doing image comparison in the slightest.
+Application is finished. It's only a demo and lacks some key functions.<br />
+Application was made using various libraries simply to try them out. <br />
+It's no optimal way of doing image comparison in the slightest.<br />
