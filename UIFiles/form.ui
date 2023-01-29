@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bgwidget</class>
+ <widget class="QWidget" name="bgwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>999</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#bgwidget
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(227, 238, 255, 255), stop:1 rgba(243, 231, 233, 255));
+}</string>
+  </property>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>271</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#fbfbfb;
+border-radius: 10px;
+border-width: 5px;
+
+border-color: #263a96;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="adnoteButton">
+   <property name="geometry">
+    <rect>
+     <x>234</x>
+     <y>530</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>10</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+background-color: rgb(38, 58, 150);
+font: 10pt &quot;Montserrat&quot;;
+color: #fbfbfb;
+ font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Adnotuj</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="groupButton">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>530</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>10</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+background-color: rgb(38, 58, 150);
+font: 10pt &quot;Montserrat&quot;;
+color: #fbfbfb;
+ font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Grupuj</string>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>530</y>
+     <width>108</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 1px;
+background-color: rgb(38, 58, 150);
+font: 10pt &quot;Montserrat&quot;;
+color: #fbfbfb;
+font-weight: bold;
+ text-align: center;
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="currentText">
+    <string>Obiekty</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Obiekty</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kolory</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>510</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-color: rgb(38, 58, 150);
+font: 10pt &quot;Montserrat&quot;;
+color: #fbfbfb;
+ font-weight: bold;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="browseButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>170</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+background-color: rgb(38, 58, 150);
+font: 10pt &quot;Montserrat&quot;;
+color: #fbfbfb;
+ font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Przeglądaj...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>530</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+background-color: rgb(38, 58, 150);
+font: 10pt &quot;Montserrat&quot;;
+color: #fbfbfb;
+ font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Eksportuj</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sizeLabel">
+   <property name="geometry">
+    <rect>
+     <x>885</x>
+     <y>20</y>
+     <width>75</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>		Select Image</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>40</y>
+     <width>471</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#fbfbfb;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-width: 5px;
+
+border-color: #263a96;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>90</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Montserrat&quot;;
+color: rgb(38, 58, 150);
+</string>
+   </property>
+   <property name="text">
+    <string>Komparato</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>120</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Montserrat&quot;;
+color: rgb(38, 58, 150);</string>
+   </property>
+   <property name="text">
+    <string>Inator</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>140</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Montserrat&quot;;
+color: rgb(38, 58, 150);</string>
+   </property>
+   <property name="text">
+    <string>v1.0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
