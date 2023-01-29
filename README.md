@@ -1,7 +1,7 @@
 # Image comparator
 
 ## Name
-Image-scaler
+komparato-inator
 
 ## Instalation
 Main file name: Session.py
