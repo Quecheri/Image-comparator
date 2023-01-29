@@ -6,7 +6,7 @@ komparato-inator
 ## Instalation
 Main file name: Session.py
 
-###Technologies
+### Technologies
 * Python 3.7
 * pillow>=7.0.0
 * numpy>=1.18.1
@@ -30,7 +30,7 @@ User can create annotations with selected image and export it when ready.
 Application uses OpenImageAI
 Supported externsions: .bmp .jpg .png
 
-###Annotations
+### Annotations
 To proplerly use annotations:
 * C - Clear
 * D - Hand draw
