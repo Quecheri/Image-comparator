@@ -8,7 +8,12 @@ from PyQt5.QtGui import QPixmap
 
 class IO():
     def __init__(self):
-        pass
+        self.CheckIfDirExist("Annotations")
+        self.CheckIfDirExist("config")
+
+    def CheckIfDirExist(self,path:str):
+        if os.path.exists(path) == False:
+            os.mkdir(path)
 
     def loadAnnotationsFromConfFile(self)->List[Annotation]:
        annotationList = []

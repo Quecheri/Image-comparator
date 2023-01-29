@@ -36,7 +36,7 @@ class Session():
         self.fillMetricList([Metrics.Identity(),Metrics.Object()])
         self.currentMetricIndex = 0
         self.userInterface.setupMetricsComboBox(self.getMetricNames())
-
+        
 
     
     def fillMetricList(self,metricList:List[Metrics.MetricI]):
